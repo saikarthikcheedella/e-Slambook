@@ -1,0 +1,33 @@
+<!doctypehtml>
+<html>
+<head>
+      <meta charset="utf-8"/>
+      <title>SlamBook</title>
+      <link rel="stylesheet" href="index.css" />
+      <link rel="shortcut icon" href="favicon.gif" type="image/x-icon" />
+<body>
+     <div id="complete">
+	     <div id="header" >
+		     <div id="logo">
+             <h1 id="heading">Slam<span id="fr" >Book</span></h1>
+             </div>
+             <div id="nav">
+                <ul id="list">
+     
+                   <li class="index" ><a href="logout.html" >Logout</a></li>
+                   <li class="index" id="current" ><a href="showslam.html" >Slam</a></li>
+                   <li  class="index"  ><a href="index.html">Home</a></li>
+                 </ul>
+             </div>
+	      </div>
+ <!---------------------------------------------------------------------------->
+	     <div id="content" >
+		 <div id="reg" >
+		        <form id="lol" action="/cgi-bin/showslam.py" method="POST"></form>
+                <script>document.getElementById('lol').submit();</script>
+             </div>
+	     </div>
+<!---------------------------------------------------------------------------->
+	 </div>
+</body>
+</html>

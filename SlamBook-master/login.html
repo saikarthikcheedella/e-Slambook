@@ -1,0 +1,40 @@
+<!doctypehtml>
+<html>
+<head>
+      <meta charset="utf-8"/>
+      <title>SlamBook</title>
+      <link rel="stylesheet" href="index.css" />
+      <link rel="shortcut icon" href="favicon.gif" type="image/x-icon" />
+</head>
+<body>
+     <div id="complete">
+	     <div id="header" >
+		     <div id="logo">
+             <h1 id="heading">Slam<span id="fr" >Book</span></h1>
+             </div>
+             <div id="nav">
+                <ul id="list">
+                   
+                   <li  class="login" id="current"><a href="login.html" >Login</a></li>
+                   <li  class="login" ><a href="register.html" >Register</a></li>
+                   <li  class="login" ><a href="index.html">Home</a></li>
+                 </ul>
+             </div>
+	      </div>
+ <!---------------------------------------------------------------------------->
+	     <div id="content" >
+		      <div id="reg" >
+                <form action="../cgi-bin/login.py" method="POST" target="_self">
+                    <label class="lab"> User name</label></br>
+					<input class="lab" type="text" name="uname" required></input></br>
+					
+                    <label class="lab"> Password</label></br>
+					<input class="lab" type="password" name="password" required></input></br>
+			  <input class="submit" type="submit" name="submit" ></input></br>
+                </form>
+             </div>
+	     </div>
+<!---------------------------------------------------------------------------->
+	 </div>
+</body>
+</html> 
